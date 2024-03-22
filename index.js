@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'client')));
 const publicVapidKey = process.env.PUBLIC_VAPID_KEY;
 const privateVapidKey = process.env.PRIVATE_VAPID_KEY;
 
-webPush.setVapidDetails('mailto:test@example.com', publicVapidKey, privateVapidKey);
+webPush.setVapidDetails('mailto:mh408800@gmail.com', publicVapidKey, privateVapidKey);
 
 // Subscribe route
 

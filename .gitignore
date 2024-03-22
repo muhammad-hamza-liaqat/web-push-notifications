@@ -1,3 +1,6 @@
 node_modules
 /build
 /*.log
+variables.env
+package-lock.json
+.DS_store
